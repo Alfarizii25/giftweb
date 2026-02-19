@@ -54,7 +54,7 @@ const Footer = () => {
               fill="currentColor" 
             />
             <p className="font-display text-2xl sm:text-3xl text-white">
-              for Valentine's Day
+              Love
             </p>
             <Sparkles className="w-6 h-6 text-white/80" />
           </div>
@@ -69,10 +69,10 @@ const Footer = () => {
           {/* Copyright */}
           <div className="space-y-2">
             <p className="font-body text-white/80 text-sm">
-              © {currentYear} Love Page. All rights reserved.
+              © {currentYear} Page Ulang Tahun Khansa.
             </p>
             <p className="font-body text-white/60 text-xs">
-              Celebrating love, one heartbeat at a time.
+              Celebrating Birthday, Happy Moment.
             </p>
           </div>
 

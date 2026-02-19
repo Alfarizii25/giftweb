@@ -74,13 +74,13 @@ const GiftSection = () => {
         <div className={`text-center mb-16 transition-all duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
           <div className="inline-flex items-center gap-2 px-4 py-2 glass rounded-full mb-4">
             <Gift className="w-4 h-4 text-pink-hot" />
-            <span className="text-sm font-medium text-pink-deep">Special Surprise</span>
+            <span className="text-sm font-medium text-pink-deep">Apa ya ini</span>
           </div>
           <h2 className="font-display text-4xl sm:text-5xl lg:text-6xl text-pink-hot mb-4">
-            Your Valentine's Gift
+            Gift For You
           </h2>
           <p className="font-body text-gray-600 max-w-2xl mx-auto">
-            I have something special waiting for you. Open it with love!
+            Coba Kamu open yaaaaa
           </p>
         </div>
 
@@ -123,7 +123,7 @@ const GiftSection = () => {
 
               {/* Click Hint */}
               <p className="text-center mt-8 font-body text-pink-deep animate-pulse">
-                Click to open your gift!
+                Pencett biar kebukaaa
               </p>
             </div>
           ) : (
@@ -176,16 +176,16 @@ const GiftSection = () => {
                       
                       <div className="space-y-4 font-body text-gray-700 leading-relaxed">
                         <p>
-                          On this special day, I want you to know how much you mean to me. 
-                          You are the reason I smile, the reason I believe in love, 
-                          and the reason every day feels like Valentine's Day.
+                          Di hari yang spesial dan keren ini, aku mau ngucapin selamat ulang tahunn khansaa!!. 
+                          Kamu alasan aku bahagia setiap hari, dan juga aku mau doain kamu agar sehat dan panjang umurr teruss. 
+                          Aku mau kamu bahagia terus yaa setiap harii.
                         </p>
                         <p>
                           Thank you for being my partner, my best friend, and my greatest adventure. 
-                          I promise to cherish you, support you, and love you more with each passing day.
+                          I promise to cherish you, support you, and love you moree.
                         </p>
                         <p className="font-display text-xl text-pink-deep">
-                          Forever Yours ❤️a                        </p>
+                          I Lovee Youu ❤️a                        </p>
                       </div>
 
                       {/* Music Note Decoration */}

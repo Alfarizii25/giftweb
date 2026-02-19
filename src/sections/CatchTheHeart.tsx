@@ -271,10 +271,10 @@ const CatchTheHeart = () => {
             <span className="text-sm font-medium text-pink-deep">Mini Game</span>
           </div>
           <h2 className="font-display text-4xl sm:text-5xl lg:text-6xl text-pink-hot mb-4">
-            Catch the Heart
+            Tangkep Hatinya woi
           </h2>
           <p className="font-body text-gray-600 max-w-2xl mx-auto">
-            Catch as many falling hearts as you can before time runs out!
+            Tangkep hatinya banyak banyak, jangan sampe jatoh
           </p>
         </div>
 
@@ -319,8 +319,8 @@ const CatchTheHeart = () => {
                     <Heart className="absolute -bottom-2 -left-4 w-8 h-8 text-pink animate-float" fill="currentColor" style={{ animationDelay: '-2s' }} />
                   </div>
                   <div>
-                    <h3 className="font-display text-3xl text-pink-deep mb-2">Ready to Play?</h3>
-                    <p className="font-body text-gray-600">Click the hearts as they fall to catch them!</p>
+                    <h3 className="font-display text-3xl text-pink-deep mb-2">Ready ga?</h3>
+                    <p className="font-body text-gray-600">Pencet pencet itu hatinya</p>
                   </div>
                   <Button
                     onClick={startGame}

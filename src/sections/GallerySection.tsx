@@ -9,34 +9,34 @@ interface GalleryImage {
 
 const galleryImages: GalleryImage[] = [
   {
-    src: '/images/gallery-1.jpg',
-    alt: 'Couple walking in garden',
-    caption: 'Walking hand in hand through life'
+    src: '/images/khansa.jpeg',
+    alt: 'Khansa marahmarah',
+    caption: 'khansa marah di vid call 😡😜🤬'
   },
   {
-    src: '/images/gallery-2.jpg',
-    alt: 'Couple having picnic',
-    caption: 'Every moment with you is precious'
+    src: '/images/image.png',
+    alt: 'photobox robalox',
+    caption: 'Ini photobox di roblox frame Lany'
   },
   {
-    src: '/images/gallery-3.jpg',
-    alt: 'Couple cuddling on sofa',
-    caption: 'Home is wherever I am with you'
+    src: '/images/kerenbgt.png',
+    alt: 'ProkProk',
+    caption: 'Cuddle di rerumputan jir'
   },
   {
-    src: '/images/gallery-4.jpg',
-    alt: 'Couple dancing',
-    caption: 'Dancing through life together'
+    src: '/images/gunung.png',
+    alt: 'Gunungg',
+    caption: 'Trend robalox 😜😜❤️'
   },
   {
-    src: '/images/gallery-5.jpg',
-    alt: 'Couple baking together',
-    caption: 'Making sweet memories'
+    src: '/images/ngedate.png',
+    alt: 'mejameja',
+    caption: 'Ngedate ni yee'
   },
   {
-    src: '/images/gallery-6.jpg',
-    alt: 'Couple at beach sunset',
-    caption: 'Forever and always'
+    src: '/images/waterboom.png',
+    alt: 'Waterboom',
+    caption: 'Main waterboom boom'
   }
 ];
 
@@ -112,13 +112,13 @@ const GallerySection = () => {
         <div className={`text-center mb-16 transition-all duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
           <div className="inline-flex items-center gap-2 px-4 py-2 glass rounded-full mb-4">
             <Heart className="w-4 h-4 text-pink-hot" fill="currentColor" />
-            <span className="text-sm font-medium text-pink-deep">Our Journey</span>
+            <span className="text-sm font-medium text-pink-deep">Liat Fotonya</span>
           </div>
           <h2 className="font-display text-4xl sm:text-5xl lg:text-6xl text-pink-hot mb-4">
-            Our Memories
+            Foto foto bagyus
           </h2>
           <p className="font-body text-gray-600 max-w-2xl mx-auto">
-            Every picture tells a story of our love
+            Foto foto mabar bareng bersama
           </p>
         </div>
 

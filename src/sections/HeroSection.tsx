@@ -71,7 +71,7 @@ const HeroSection = () => {
             {/* Badge */}
             <div className="inline-flex items-center gap-2 px-4 py-2 glass-pink rounded-full">
               <Sparkles className="w-4 h-4 text-pink-hot" />
-              <span className="text-sm font-medium text-pink-deep">Valentine's Special</span>
+              <span className="text-sm font-medium text-pink-deep">Khansa's Birthday</span>
             </div>
 
             {/* Heading */}
@@ -80,11 +80,9 @@ const HeroSection = () => {
                 Happy
               </h1>
               <h1 className="font-display text-5xl sm:text-6xl lg:text-7xl xl:text-8xl text-gradient-pink leading-tight">
-                Valentine's
+                Birthdayy
               </h1>
-              <h1 className="font-display text-5xl sm:text-6xl lg:text-7xl xl:text-8xl text-pink-deep leading-tight">
-                Day
-              </h1>
+              
             </div>
 
             {/* Subheading */}
@@ -93,9 +91,8 @@ const HeroSection = () => {
                 To My Special Person
               </p>
               <p className="font-body text-base sm:text-lg text-gray-600 max-w-md leading-relaxed">
-                You make my heart skip a beat every time I see you. 
-                This Valentine's Day, I want to celebrate our love and create 
-                beautiful memories together.
+                Hai, Semoga khansa kedepannya diberikan kesehatan, panjang umur, sukses dan sehat selaluu.
+                Kurang kurangin makan mie instan neng 🤦‍♂️
               </p>
             </div>
 
@@ -162,7 +159,7 @@ const HeroSection = () => {
               {/* Main Image */}
               <div className="relative rounded-3xl overflow-hidden shadow-romantic">
                 <img
-                  src="/images/hero-couple.jpg"
+                  src="/images/khansacantik.jpeg"
                   alt="Romantic Couple"
                   className="w-full h-auto object-cover transform hover:scale-105 transition-transform duration-700"
                 />

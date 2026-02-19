@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
-import { Heart, Quote, ChevronLeft, ChevronRight } from 'lucide-react';
+import { Heart, Quote } from 'lucide-react';
 
 interface QuoteData {
   text: string;
@@ -8,29 +8,12 @@ interface QuoteData {
 
 const quotes: QuoteData[] = [
   {
-    text: "Love is composed of a single soul inhabiting two bodies.",
-    author: "Aristotle"
-  },
-  {
-    text: "You know you're in love when you can't fall asleep because reality is finally better than your dreams.",
-    author: "Dr. Seuss"
-  },
-  {
-    text: "The best thing to hold onto in life is each other.",
-    author: "Audrey Hepburn"
-  },
-  {
-    text: "I saw that you were perfect, and so I loved you. Then I saw that you were not perfect and I loved you even more.",
-    author: "Angelita Lim"
-  },
-  {
-    text: "You are my sun, my moon, and all my stars.",
-    author: "E.E. Cummings"
-  },
-  {
-    text: "In all the world, there is no heart for me like yours. In all the world, there is no love for you like mine.",
-    author: "Maya Angelou"
+    text: "You are the moonlight of my life, everynight.",
+    author: "Green Day"
   }
+  
+  
+  
 ];
 
 const QuotesSection = () => {
@@ -69,15 +52,6 @@ const QuotesSection = () => {
     setIsAnimating(true);
     setTimeout(() => {
       setCurrentIndex((prev) => (prev + 1) % quotes.length);
-      setIsAnimating(false);
-    }, 300);
-  };
-
-  const handlePrev = () => {
-    if (isAnimating) return;
-    setIsAnimating(true);
-    setTimeout(() => {
-      setCurrentIndex((prev) => (prev - 1 + quotes.length) % quotes.length);
       setIsAnimating(false);
     }, 300);
   };
@@ -159,48 +133,6 @@ const QuotesSection = () => {
               />
             </div>
 
-            {/* Navigation Buttons */}
-            <div className="flex items-center justify-center gap-4 mt-8">
-              <button
-                onClick={handlePrev}
-                className="p-3 rounded-full glass-pink hover:bg-pink-light/30 transition-all duration-300 hover:scale-110"
-                aria-label="Previous quote"
-              >
-                <ChevronLeft className="w-6 h-6 text-pink-deep" />
-              </button>
-
-              {/* Dots Indicator */}
-              <div className="flex items-center gap-2">
-                {quotes.map((_, index) => (
-                  <button
-                    key={index}
-                    onClick={() => {
-                      if (!isAnimating) {
-                        setIsAnimating(true);
-                        setTimeout(() => {
-                          setCurrentIndex(index);
-                          setIsAnimating(false);
-                        }, 300);
-                      }
-                    }}
-                    className={`transition-all duration-300 ${
-                      index === currentIndex
-                        ? 'w-8 h-3 bg-pink-hot rounded-full'
-                        : 'w-3 h-3 bg-pink-light/50 rounded-full hover:bg-pink-light'
-                    }`}
-                    aria-label={`Go to quote ${index + 1}`}
-                  />
-                ))}
-              </div>
-
-              <button
-                onClick={handleNext}
-                className="p-3 rounded-full glass-pink hover:bg-pink-light/30 transition-all duration-300 hover:scale-110"
-                aria-label="Next quote"
-              >
-                <ChevronRight className="w-6 h-6 text-pink-deep" />
-              </button>
-            </div>
           </div>
         </div>
 
